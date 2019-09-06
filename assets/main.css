@@ -1,0 +1,171 @@
+body {
+    background: white;
+    color: black;
+    font-family: Helvetica;
+    padding: 100px;
+}
+
+.container {
+    display: flex; 
+    flex-direction: row; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: lightyellow;
+}
+
+#index {
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    position: absolute;
+    /* left:50%;
+    transform:translateX(-50%); */
+}
+
+#aira {
+    font-size: 18px;
+    letter-spacing: 5px;
+    opacity: .3;
+}
+
+
+#name {
+    margin-top: 6px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-style: bold;
+}
+
+.row {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    justify-content: space-between;
+    vertical-align: top;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);  
+}
+
+.column {
+    display: flex; 
+    flex-direction: row;
+    /* align-content: center; */
+    align-items: center;
+}
+
+.content {
+    display: flex; 
+    flex-direction: row;
+}
+
+#number {
+    font-size: 35vw;
+    color: #ebebeb;
+    font-weight: bold;
+    position: relative;
+    z-index: 20;
+    /* background: lightblue; */
+}
+
+.info {
+    display: flex; 
+    flex-direction: column;
+    /* background-color: yellow; */
+    position: absolute;
+    margin-left: 15vw;
+    margin-top: 15vw;
+    letter-spacing: .3px;
+    z-index: 25;
+}
+
+#assignmentname {
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    background-color: lightyellow;
+}
+
+#detail {
+    font-size: 15px;
+    letter-spacing: 2.3px;
+    padding-top: 10px;
+}
+
+.img {
+    margin-left: 20px;
+    width: 40vw;
+    height: 350px;
+    background-color: lightblue;
+    margin-bottom: 10px;
+}
+
+@media(max-width: 800px){ 
+
+    body {
+        padding: 50px;
+    }
+
+    #aira {
+        font-size: 14px;
+        line-height: 1;
+        padding-bottom: 10px;
+    }
+
+    #index{
+        font-size: 30px;    
+        letter-spacing: 3px; 
+        position: absolute;
+    }
+
+    #number {
+        font-size: 200px;
+    }
+
+    .header {
+        width: 100vw;
+        background: white;
+    }
+
+    .row {
+        padding-top: 100px;
+    }
+
+    #indexTitle {
+        font-size: 30px;    
+        letter-spacing: .4px;  
+    }
+
+    #name {
+        margin-top: 6px;
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+
+    #detail {
+        font-size: 16px;
+    }
+
+    .info {
+        margin-left: 25vw;
+        margin-top: 25vw;
+        letter-spacing: .3px;
+    }
+
+    .img {
+        width: 160px;
+        height: 150px;
+    }
+
+    #assignmentname {
+        font-size: 14px;
+    }
+}
