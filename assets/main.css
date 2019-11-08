@@ -100,11 +100,15 @@ a:hover {
 }
 
 .img {
-    margin-left: 20px;
+    margin-left: 80px;
     width: 40vw;
     height: 350px;
     background-color: lightblue;
     margin-bottom: 10px;
+}
+
+img {
+    width: 25vw;
 }
 
 @media(max-width: 800px){ 
