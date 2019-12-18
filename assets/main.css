@@ -81,7 +81,7 @@ a:hover {
     flex-direction: column;
     /* background-color: yellow; */
     position: absolute;
-    margin-left: 15vw;
+    margin-left: 12vw;
     margin-top: 15vw;
     letter-spacing: .3px;
     z-index: 25;
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .img {
-    margin-left: 80px;
+    margin-left: 100px;
     width: 40vw;
     height: 350px;
     background-color: lightblue;
@@ -108,7 +108,8 @@ a:hover {
 }
 
 img {
-    width: 25vw;
+    width: 45vw;
+    box-shadow: 5px 5px 10px grey;
 }
 
 @media(max-width: 800px){ 
