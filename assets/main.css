@@ -103,7 +103,7 @@ a:hover {
     margin-left: 100px;
     width: 40vw;
     height: 350px;
-    background-color: lightblue;
+    /* background-color: lightblue; */
     margin-bottom: 10px;
 }
 
@@ -119,7 +119,7 @@ img {
     }
 
     #aira {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1;
         padding-bottom: 10px;
     }
@@ -140,7 +140,7 @@ img {
     }
 
     .row {
-        padding-top: 100px;
+        padding-top: 90px;
     }
 
     #indexTitle {
@@ -155,11 +155,11 @@ img {
     }
 
     #detail {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .info {
-        margin-left: 25vw;
+        margin-left: 20vw;
         margin-top: 25vw;
         letter-spacing: .3px;
     }
